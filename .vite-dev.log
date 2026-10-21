@@ -1,0 +1,28 @@
+
+  VITE v5.4.21  ready in 576 ms
+
+  ➜  Local:   http://localhost:5173/
+  ➜  Network: http://192.168.254.182:5173/
+  ➜  Network: http://10.192.47.165:5173/
+  ➜  Network: http://7.46.221.250:5173/
+Error:   Failed to scan for dependencies from entries:
+  /data/data/com.termux/files/home/opencode-projects/aerox-app/index.html
+
+  [31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mExpected "}" but found "RPM"[0m
+
+    main.js:540:15:
+[37m      540 │   console.log(`[32mRPM[37m: ${system.rpm.toFixed(0)}, Temp: ${system.temp...
+          │                [32m~~~[37m
+          ╵                [32m}[0m
+
+
+    at failureErrorWithLog (/data/data/com.termux/files/home/opencode-projects/aerox-app/node_modules/esbuild/lib/main.js:1472:15)
+    at /data/data/com.termux/files/home/opencode-projects/aerox-app/node_modules/esbuild/lib/main.js:945:25
+    at runOnEndCallbacks (/data/data/com.termux/files/home/opencode-projects/aerox-app/node_modules/esbuild/lib/main.js:1315:45)
+    at buildResponseToResult (/data/data/com.termux/files/home/opencode-projects/aerox-app/node_modules/esbuild/lib/main.js:943:7)
+    at /data/data/com.termux/files/home/opencode-projects/aerox-app/node_modules/esbuild/lib/main.js:955:9
+    at new Promise (<anonymous>)
+    at requestCallbacks.on-end (/data/data/com.termux/files/home/opencode-projects/aerox-app/node_modules/esbuild/lib/main.js:954:54)
+    at handleRequest (/data/data/com.termux/files/home/opencode-projects/aerox-app/node_modules/esbuild/lib/main.js:647:17)
+    at handleIncomingPacket (/data/data/com.termux/files/home/opencode-projects/aerox-app/node_modules/esbuild/lib/main.js:672:7)
+    at Socket.readFromStdout (/data/data/com.termux/files/home/opencode-projects/aerox-app/node_modules/esbuild/lib/main.js:600:7)

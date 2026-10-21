@@ -1,0 +1,19 @@
+{
+  "name": "aerox-app",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "vite": "^5.2.0",
+    "three": "^0.160.0",
+    "prismjs": "^1.29.0"
+  },
+  "buildOptions": {
+    "target": "es2020"
+  }
+}
