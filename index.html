@@ -10,12 +10,35 @@
   <meta name="theme-color" content="#1a1a2e">
   <meta name="description" content="Learn Yamaha Aerox two-stroke engineering through interactive 3D boards, simulations, and code editing">
   <meta name="author" content="cY">
-  <base href="./">
-  <script type="module" src="./assets/index-fatMsk6X.js"></script>
-  <link rel="modulepreload" href="./assets/three-fs3BN1F6.js">
-  <link rel="stylesheet" href="./assets/index-Cg1sXqY3.css">
+  <script type="module" crossorigin src="/aerox-educational-platform/assets/index-BlMN39DO.js"></script>
+  <link rel="modulepreload" crossorigin href="/aerox-educational-platform/assets/three-BJx1JmeU.js">
+  <link rel="modulepreload" crossorigin href="/aerox-educational-platform/assets/prism-CztPJKWv.js">
+  <link rel="stylesheet" crossorigin href="/aerox-educational-platform/assets/index-Cg1sXqY3.css">
 </head>
 <body>
-  <div id="root"></div>
+  <div id="root">
+    <header class="app-header">
+      <h1>Yamaha Aerox Educational Platform</h1>
+      <p class="subtitle">Learn two-stroke engineering with interactive 3D boards, simulations and live code</p>
+    </header>
+
+    <main class="editor-container">
+      <h2 id="lesson-title">Loading lesson&hellip;</h2>
+
+      <div class="progress-wrapper">
+        <div class="progress-bar">
+          <div id="progress-bar" class="progress-bar-fill"></div>
+        </div>
+      </div>
+
+      <div id="board-container" aria-label="Interactive 3D board"></div>
+
+      <nav class="lesson-nav" aria-label="Lessons"></nav>
+
+      <div id="editor-mount"></div>
+    </main>
+
+    <aside id="inspector-panel" class="inspector-panel" aria-label="Part inspector"></aside>
+  </div>
 </body>
 </html>
